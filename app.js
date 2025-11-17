@@ -41,7 +41,7 @@ const carData = [
     price: 39.99,
     description:
       "A classic 1978 Ford Bronco in bright red, perfect for off-road themed collections.",
-    image: "assets/ford-bronco-1978.jpg",
+    image: "assets/ford-bronco-1978.png",
     caption: "1978 Ford Bronco, Red – 1:24 scale."
   },
   {
@@ -62,7 +62,7 @@ const carData = [
     price: 12.99,
     description:
       "Compact Lotus Emira with pull-back action and opening doors, available in multiple colors.",
-    image: "assets/lotus-emira.jpg",
+    image: "assets/lotus-emira.png",
     caption: "Lotus Emira Hardtop assortment – 1:34 scale."
   },
   {
@@ -83,7 +83,7 @@ const carData = [
     price: 7.49,
     description:
       "Small scale 1970 Buick GSX with classic muscle car styling and detailed striping.",
-    image: "assets/buick-gsx-1970.jpg",
+    image: "assets/buick-gsx-1970.png",
     caption: "1970 Buick GSX, Burnished Copper – 1:64 scale."
   },
   {
@@ -104,7 +104,7 @@ const carData = [
     price: 8.99,
     description:
       "A fun Volkswagen panel van with Thanksgiving artwork, perfect for seasonal displays.",
-    image: "assets/vw-panel-van-thanksgiving.jpg",
+    image: "assets/vw-panel-van-thanksgiving.png",
     caption: "Happy Thanksgiving VW panel van – 1:64 scale."
   },
   {
@@ -125,7 +125,7 @@ const carData = [
     price: 9.99,
     description:
       "Detailed BMW X5 in Toronto Red with clean lines and realistic wheels.",
-    image: "assets/bmw-x5-g05-red.jpg",
+    image: "assets/bmw-x5-g05-red.png",
     caption: "BMW X5 G05, Toronto Red – 1:64 scale."
   },
   {
@@ -146,7 +146,7 @@ const carData = [
     price: 34.99,
     description:
       "Bright orange Jeep Renegade with opening doors and detailed interior.",
-    image: "assets/jeep-renegade-2017-orange.jpg",
+    image: "assets/jeep-renegade-2017-orange.png",
     caption: "2017 Jeep Renegade SUV, Orange – 1:24 scale."
   },
   {
@@ -167,7 +167,7 @@ const carData = [
     price: 36.99,
     description:
       "A movie-inspired Mitsubishi Eclipse with wide body kit and bright decals.",
-    image: "assets/mitsubishi-eclipse-brian.jpg",
+    image: "assets/mitsubishi-eclipse-brian.png",
     caption: "Brian's Mitsubishi Eclipse Remix – Fast & Furious, 1:24 scale."
   },
   {
@@ -188,7 +188,7 @@ const carData = [
     price: 37.99,
     description:
       "A clean dark blue Datsun 240Z with lowered stance and classic JDM look.",
-    image: "assets/datsun-240z-1972.jpg",
+    image: "assets/datsun-240z-1972.png",
     caption: "1972 Datsun 240Z, Dark Blue – 1:24 scale."
   },
   {
@@ -209,7 +209,7 @@ const carData = [
     price: 11.99,
     description:
       "A small yet bold matte pink Aventador with pull-back action and opening doors.",
-    image: "assets/lamborghini-aventador-pink.jpg",
+    image: "assets/lamborghini-aventador-pink.png",
     caption: "Lamborghini Aventador LP700-4, Matte Pink – 1:38 scale."
   },
   {
@@ -230,7 +230,7 @@ const carData = [
     price: 38.99,
     description:
       "A tuned 2016 Camaro in candy blue with wide body kit and large rear wing.",
-    image: "assets/chevy-camaro-blue.jpg",
+    image: "assets/chevy-camaro-blue.png",
     caption: "2016 Chevy Camaro, Candy Blue – 1:24 scale."
   },
   {
@@ -251,7 +251,7 @@ const carData = [
     price: 42.99,
     description:
       "A crossover between Optimus Prime and the Ghostbusters Ecto-1, with bold livery.",
-    image: "assets/optimus-ecto1.jpg",
+    image: "assets/optimus-ecto1.png",
     caption: "Optimus Prime Truck Ghostbusters Ecto-1 – 1:24 scale."
   },
   {
@@ -272,7 +272,7 @@ const carData = [
     price: 35.99,
     description:
       "A lowrider style 1957 Chevy Bel Air with wire wheels and a white roof.",
-    image: "assets/chevy-belair-1957.jpg",
+    image: "assets/chevy-belair-1957.png",
     caption: "1957 Chevy Bel Air Lowrider, Blue/White – 1:24 scale."
   }
 ];
