@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Model Toy Cars Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <header class="page-header">
+      <h1 class="page-title">Model Toy Cars Lab</h1>
+      <p class="page-subtitle">
+        Choose a toy car from the list and explore its details. You can also set your own rating.
+      </p>
+    </header>
+
+    <!-- Controls -->
+    <section class="controls card">
+      <h2 class="card-title">Select a car</h2>
+      <div class="field-group">
+        <label for="car-select" class="field-label">Model</label>
+        <select id="car-select" class="select">
+          <!-- options will be added by JavaScript -->
+        </select>
+      </div>
+
+      <div class="field-group rating-group">
+        <label for="rating-input" class="field-label">Your rating (1–5)</label>
+        <div class="rating-controls">
+          <input type="range" id="rating-input" min="1" max="5" step="1">
+          <span id="rating-value" class="rating-value">3</span>
+          <button id="save-rating" class="btn">Save rating</button>
+        </div>
+        <p class="hint-text">The rating is stored on the current car object.</p>
+      </div>
+    </section>
+
+    <!-- Car details -->
+    <section class="car-details card">
+      <h2 class="card-title" id="car-name">Car name</h2>
+
+      <div class="car-layout">
+        <figure class="car-image-wrapper">
+          <img id="car-image" src="" alt="Toy car" class="car-image">
+          <figcaption id="car-caption" class="car-caption"></figcaption>
+        </figure>
+
+        <div class="car-info">
+          <ul class="spec-list">
+            <li><span class="spec-label">Brand:</span> <span id="car-brand"></span></li>
+            <li><span class="spec-label">Year:</span> <span id="car-year"></span></li>
+            <li><span class="spec-label">Scale:</span> <span id="car-scale"></span></li>
+            <li><span class="spec-label">Color:</span> <span id="car-color"></span></li>
+            <li><span class="spec-label">Category:</span> <span id="car-category"></span></li>
+            <li><span class="spec-label">Series:</span> <span id="car-series"></span></li>
+            <li><span class="spec-label">Model code:</span> <span id="car-code"></span></li>
+            <li><span class="spec-label">Material:</span> <span id="car-material"></span></li>
+            <li><span class="spec-label">Opening doors:</span> <span id="car-doors"></span></li>
+            <li><span class="spec-label">Pull-back action:</span> <span id="car-pullback"></span></li>
+            <li><span class="spec-label">Approx. length:</span> <span id="car-length"></span></li>
+            <li><span class="spec-label">Approx. weight:</span> <span id="car-weight"></span></li>
+            <li><span class="spec-label">Price (demo):</span> <span id="car-price"></span></li>
+            <li><span class="spec-label">Your rating:</span> <span id="car-user-rating"></span></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="car-description" id="car-description">
+        Description will appear here.
+      </p>
+    </section>
+
+    <footer class="page-footer">
+      <p>JavaScript Constructor Lab 3 – ModelToyCars.com inspired collection.</p>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

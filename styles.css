@@ -1,0 +1,199 @@
+/* Basic layout */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #f7f7f7;
+  color: #222;
+}
+
+.page {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+}
+
+/* Header */
+
+.page-header {
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.page-title {
+  margin: 0 0 8px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.page-subtitle {
+  margin: 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Cards */
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  padding: 20px 20px 22px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.card-title {
+  margin: 0 0 16px;
+  font-size: 1.3rem;
+}
+
+/* Controls */
+
+.field-group {
+  margin-bottom: 16px;
+}
+
+.field-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.select {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #d0d0d0;
+  background-color: #ffffff;
+  font-size: 0.95rem;
+}
+
+.rating-group {
+  margin-top: 10px;
+}
+
+.rating-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rating-value {
+  width: 22px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.hint-text {
+  margin: 6px 0 0;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+/* Buttons */
+
+.btn {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid #c0c0c0;
+  background-color: #ffffff;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+  background-color: #f1f1f1;
+  border-color: #b0b0b0;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+/* Car layout */
+
+.car-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.2fr);
+  gap: 20px;
+}
+
+.car-image-wrapper {
+  margin: 0;
+}
+
+.car-image {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 8px;
+  border: 1px solid #e4e4e4;
+  background-color: #fafafa;
+}
+
+.car-caption {
+  margin-top: 6px;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* Specs */
+
+.car-info {
+  font-size: 0.9rem;
+}
+
+.spec-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.spec-list li {
+  margin-bottom: 4px;
+}
+
+.spec-label {
+  font-weight: 500;
+}
+
+/* Description */
+
+.car-description {
+  margin-top: 18px;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* Footer */
+
+.page-footer {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .car-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .page {
+    padding-inline: 12px;
+  }
+}
